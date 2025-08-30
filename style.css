@@ -11,12 +11,23 @@ Table of content:
 ------------------------------
 ------------------------------*/
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 /* --------------
 -----------------
 1. Global styles
 -----------------
 -----------------*/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 * {
   font-family: Arial, sans-serif;
   color: #263238;
@@ -34,6 +45,10 @@ body {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 /* --------------
 -----------------
 2. Header
@@ -132,12 +147,22 @@ nav a:hover {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 /* --------------
 -----------------
 3. main
 -----------------
 -----------------*/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 main .home {
   background-color: #f0f0f0;
   display: flex;
@@ -510,6 +535,7 @@ main .languages {
   margin: 0 10px;
 }
 
+<<<<<<< HEAD
 #btn {
   width: 50px;
   height: 50px;
@@ -533,6 +559,8 @@ main .languages {
   font-size: 23px;
 }
 
+=======
+>>>>>>> 492c42ffca6f985c1a2aa7b482e81e15b792c36e
 footer {
   background-color: #263238;
   color: #fff;
