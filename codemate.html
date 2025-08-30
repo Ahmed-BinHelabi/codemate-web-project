@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeMate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><i class="fas fa-code"></i> CodeMate</h1>
+
+      <!-- Hidden Checkbox Toggle -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <nav>
+        <a href="#home"> Home</a>
+        <a href="#language">Language</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Contact</a>
+        <a class="register" href="">Register Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="intro">
+          <h1>Welcome to CodeMate</h1>
+          <h2>Learn, Practice, Succeed!</h2>
+          <p>Your personal coding assistant for web, Python, Java, and more</p>
+          <a href="#about">Start Exploring</a>
+        </div>
+        <img
+          src="img/Programming-amico.png
+        "
+          alt=""
+        />
+      </section>
+
+      <section class="about" id="about">
+        <h2>About CodeMate</h2>
+
+        <div class="about-content">
+          <p>
+            <strong>CodeMate</strong> is your ultimate companion on the journey
+            to mastering coding. Whether you're a student, self-learner, or
+            aspiring developer, CodeMate provides curated learning resources,
+            interactive coding challenges, and essential developer tools — all
+            in one place.
+          </p>
+
+          <p class="mission">
+            <em>Our mission: </em>Make coding accessible, fun, and empowering
+            for everyone.
+          </p>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>Start</h3>
+              <p>Getting started with HTML, CSS, and JavaScript basics</p>
+            </div>
+            <div class="timeline-item">
+              <h3>Practice</h3>
+              <p>Solving befinner-friendly coding challenges daily</p>
+            </div>
+            <div class="timeline-item">
+              <h3>Build</h3>
+              <p>Work on real-world projects and protfolios</p>
+            </div>
+            <div class="timeline-item">
+              <h3>Apply</h3>
+              <p>Applying for internships, freelancing, or jobs!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="languages" id="language">
+        <h2>Programming Languages</h2>
+
+        <div class="lang-container">
+          <div class="card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML/CSS</h3>
+            <p>Structure and style your web pages with HTML and CSS.</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Make yyour pages interactive using JavaScript logic and DOM</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="card">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+            <p>A verstile language great for web, data, and automation</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="card">
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+            <p>Object-oriented language used in Android and entrprise apps</p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="card">
+            <i class="fab fa-php"></i>
+            <h3>PHP</h3>
+            <p>Server-side scripting to bulid dynamic web pages</p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="challenges" id="challenges">
+        <h2>Coding Challenges</h2>
+        <p>Test your skils with hands-on exercises</p>
+
+        <div class="challenge-list">
+          <div class="card">
+            <div class="step">1</div>
+            <div class="content">
+              <h3>HTML Basics</h3>
+              <p>
+                Create a simple webpage using headings, paragraphs, and list
+              </p>
+              <a href="">Start Challenge</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="step">2</div>
+            <div class="content">
+              <h3>CSS Styling</h3>
+              <p>Apply styles to elements using classes, IDs, and selectors.</p>
+              <a href="">Start Challenge</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="step">3</div>
+            <div class="content">
+              <h3>JavaScript Calculator</h3>
+              <p>Build a basic calculator using HTML, CSS, and JS logic</p>
+              <a href="">Start Challenge</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="step">4</div>
+            <div class="content">
+              <h3>Form Validation</h3>
+              <p>Validate userr input with JavaScript before submission</p>
+              <a href="">Start Challenge</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tools" id="tools">
+        <h2>Recommended Tools</h2>
+        <p>Boost your coding journey with these powerful resources</p>
+
+        <div class="tools-grid">
+          <a
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            class="tool-card"
+          >
+            <img src="img/vscode.png" alt="VS Code" />
+            <h3>VS Code</h3>
+            <p>Powerful and customizable code editor by Microsoft.</p>
+          </a>
+
+          <a
+            href="https://www.sublimetext.com/"
+            target="_blank"
+            class="tool-card"
+          >
+            <img src="img/sublimetext.png" alt="Sublime Text" />
+            <h3>Sublime Text</h3>
+            <p>Lightweight and fast editor for all platforms.</p>
+          </a>
+
+          <a href="https://codepen.io/" target="_blank" class="tool-card">
+            <img src="img/codepen.png" alt="CodePen" />
+            <h3>CodePen</h3>
+            <p>Online playground to test front-end code live.</p>
+          </a>
+
+          <a href="https://jsfiddle.net/" target="_blank" class="tool-card">
+            <img src="img/jsfiddle_logo.png" alt="JSFiddle" />
+            <h3>JSFiddle</h3>
+            <p>Collaborative browser-based editor for web code.</p>
+          </a>
+
+          <a href="https://replit.com/" target="_blank" class="tool-card">
+            <img src="img/replit_logo.png" alt="Replit" />
+            <h3>Replit</h3>
+            <p>Code in any language directly from the browser.</p>
+          </a>
+
+          <a href="https://devhints.io/" target="_blank" class="tool-card">
+            <img src="img/devhints-social-preview.png" alt="DevHints" />
+            <h3>Cheat Sheets</h3>
+            <p>Quick references for developers – fast and clean.</p>
+          </a>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section class="contact" id="contact">
+        <h2>Contact Us or Suggest a Resource</h2>
+        <p>We’d love to hear your suggestions or answer your questions.</p>
+
+        <form
+          action="https://formspree.io/f/your-form-id"
+          method="POST"
+          class="contact-form"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message or Suggested Tool..."
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-links">
+          <a href="https://github.com/yourusername" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:you@example.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://twitter.com/yourhandle" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </section>
+
+      <button id="btn"><i class="fa-solid fa-up-long"></i></button>
+    </main>
+
+    <footer>Developed By Eng. Ahmed Bin Halabi &copy; 2025</footer>
+
+    <script>
+      let btn = document.getElementById("btn");
+
+      window.onscroll = function () {
+        if (scrollY >= 550) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
+
+      btn.onclick = function () {
+        scroll({
+          left: 0,
+          top: 0,
+        });
+      };
+    </script>
+  </body>
+</html>
